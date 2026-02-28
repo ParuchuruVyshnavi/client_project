@@ -45,7 +45,7 @@ header {
 
 .hero {
     padding: 80px 0;
-    background:url("/images/Banner_img_1.jpg");
+    background:url("images/Banner_img_1.jpg");
     margin-top:20px;
 }
 
