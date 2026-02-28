@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Sakthi Dental Clinic</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="top-bar">
+  <div class="container">
+    <span style="font-size:20px;">📞+91 9862890897, +91 9363298118</span>
+    <span style="font-size:20px;">📍 Hosur, Tamil Nadu</span>
+    <span style="font-size:18px;">🕒 Sunday to Saturday: 9am to 7pm </span>
+  </div>
+</div>
+<nav class="navbar">
+  <div class="container nav-wrapper">
+
+    <div class="logo">
+       <img src="/images/SDC Logo.png" alt="sakthi dental logo">
+      <h2 style="color:blue;">Sakthi Dental Clinic</h2>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="treatments.html">Treatments</a></li>
+      <li><a href="faqs.html">FAQS</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="contact.html" class="nav-btn">Book Appointment</a>
+
+  </div>
+</nav>
+            <button class="menu-toggle">☰</button>
+</header>
+</header>
+
+<section class="contact-section">
+  <div class="container">
+
+    <h2 class="contact-title">Contact Us</h2>
+
+    <div class="contact-wrapper">
+
+     
+      <div class="contact-form">
+        <h2 style="margin-bottom:10px;">We would love to hear from you</h2>
+        <form  >
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="tel" placeholder="Phone Number" required>
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      
+      <div class="contact-info">
+        <h3>Reach Us</h3>
+        <ul>
+        <div>
+            <li><h4>Address :</h4></li>
+            <p>📍 B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109</p><br>
+        </div>
+        <div>
+            <li><h4>Phone Number:</h4></li>
+            <p>📞 +91 9862890897, +91 9363298118</p><br>
+        </div>
+        <div>
+            <li><h4>Email :</h4></li>
+            <p>✉ <b>info@sakthidentalclinic.in</b></p><br>
+        </div>
+        <div>
+            <li><h4>Working hours :</h4></li>
+             <p>🕒 Sun–Sat: <b>9AM - 7PM</b> </p>
+        </div>
+    </ul>
+</div>
+</div>
+  </div>
+</section>
+
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e){
+e.preventDefault();
+
+const name = document.getElementById("name").value.trim();
+const email = document.getElementById("email").value.trim();
+const phone = document.getElementById("phone").value.trim();
+
+if(name === "" || email === "" || phone === ""){
+alert("Please fill all required fields.");
+return;
+}
+
+if(!/^\S+@\S+\.\S+$/.test(email)){
+alert("Please enter valid email.");
+return;
+}
+
+
+});
+</script>
+
+</body>
+</html>
