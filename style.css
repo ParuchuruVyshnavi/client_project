@@ -263,7 +263,7 @@ section {
 @media (max-width: 768px) {
 
   .hero {
-    min-height: 75vh;   /* reduce height */
+    min-height: 100vh;   /* reduce height */
     padding: 60px 20px;
   }
 
