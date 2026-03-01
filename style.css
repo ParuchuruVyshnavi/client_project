@@ -50,7 +50,7 @@ header {
     background-size:cover;
     background-position:center;
     margin-top:20px;
-    min-height:100vh;
+    min-height:80vh;
     text-align:center;
 }
 
@@ -266,7 +266,7 @@ section {
 @media (max-width: 768px) {
 
   .hero {
-    min-height: 90vh; 
+    min-height: 80vh; 
     padding: 60px 20px;
   }
 
@@ -301,7 +301,7 @@ section {
     text-align:Center;
     transition:all o.3s ease;
     box-shadow:0 4px 10px rgba(0,0,0,0.2);
-    margin-left:200px;
+    
 }
 
 .card-1{
