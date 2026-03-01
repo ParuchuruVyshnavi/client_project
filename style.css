@@ -255,15 +255,13 @@ section {
         flex-direction:column;
         text-align:center;
     }
-    .hero-image img{
-        height:300px;
-    }
+    
 }
 
 @media (max-width: 768px) {
 
   .hero {
-    min-height: 100vh;   /* reduce height */
+    min-height: 80vh;   /* reduce height */
     padding: 60px 20px;
   }
 
