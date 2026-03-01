@@ -153,23 +153,22 @@ section {
         flex-direction: column;
         background: white;
         position: absolute;
-        right:0;
-        top: 70px;
-        padding: 20px;
-        box-shadow:0 8px 20px rgba(0,0,0,0.1);
-        width:220px;
+        left:0;
+        top: 100%;
+        padding: 20px 0;
+        display:none;
+        text-align:center;
+        width:100%;
     }
-
+    .nav-links li{
+        padding:12px 0;
+    }
     .nav-links.active{
         display:flex;
     }
     
     .menu-toggle {
         display:block;
-        background: none;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
     }
 }
 
@@ -330,6 +329,8 @@ section {
   background: white;
   padding: 25px 0;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  position:relative;
+  z-index:100;
 }
 
 .nav-wrapper {
@@ -342,6 +343,7 @@ section {
   display: flex;
   gap: 30px;
   list-style: none;
+  z-index:1001;
 }
 
 .nav-links a {
