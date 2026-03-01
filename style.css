@@ -127,6 +127,9 @@ header {
         display:grid;
         width:100%;
     }
+    .treatments-section{
+        padding:60px 10px;
+    }
 }
 
 
