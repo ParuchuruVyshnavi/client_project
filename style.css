@@ -46,7 +46,12 @@ header {
 .hero {
     padding: 80px 0;
     background:url("images/Banner_img_1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
     margin-top:20px;
+    min-height:100vh;
+    text-align:center;
 }
 
 .hero h1 {
@@ -261,7 +266,7 @@ section {
 @media (max-width: 768px) {
 
   .hero {
-    min-height: 80vh;   /* reduce height */
+    min-height: 100vh;   /* reduce height */
     padding: 60px 20px;
   }
 
